@@ -65,3 +65,4 @@ const initialCalendarState = {
             return state;
       }
   }
+  export default calendar
