@@ -2,7 +2,9 @@
 
 ### Middleware Thunk
 Se um aplicativo requer interação com um servidor, usar um middleware como o `thunk` ajuda a resolver o problema do fluxo de dados assíncrono. O thunk nos permite escrever action creators assíncronos que retornam funções (em vez de objetos). O thunk pode, então, ser usado para atrasar o despacho de uma action ou para despachar somente se uma certa condição for satisfeita (ex: um pedido é resolvido).
+
 **Como usar:**
+
 `$ npm install --save redux-thunk`
 
 `import thunk from 'redux-thunk'`
